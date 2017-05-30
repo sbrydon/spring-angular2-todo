@@ -23,7 +23,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class UserServiceTests {
+public class UserServiceTest {
     @Mock
     private UserRepository userRepo;
 

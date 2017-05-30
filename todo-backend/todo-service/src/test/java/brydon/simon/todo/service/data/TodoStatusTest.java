@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class TodoStatusTests {
+public class TodoStatusTest {
     @Test
     public void valueOfNullEqualsAll() {
         assertThat(TodoStatus.valueOf((Boolean) null)).isEqualTo(TodoStatus.ALL);

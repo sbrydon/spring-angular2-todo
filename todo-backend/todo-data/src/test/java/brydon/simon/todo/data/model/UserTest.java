@@ -9,7 +9,7 @@ import javax.validation.ValidatorFactory;
 
 import static org.assertj.core.api.Assertions.*;
 
-public class UserTests {
+public class UserTest {
     private static Validator validator;
 
     @BeforeClass

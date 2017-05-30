@@ -13,7 +13,7 @@ import java.time.ZoneId;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class TodoTests {
+public class TodoTest {
     private static Validator validator;
 
     @BeforeClass
