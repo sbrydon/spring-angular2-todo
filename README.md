@@ -18,6 +18,14 @@ and controllers.
 `todo-rest` implements Basic Auth purely for demonstrating security configuration - OAuth2 would be 
 preferred in a real scenario.
 
+Example requests:
+* POST /user/registration <- `{ "username": "john.doe@example.org", "password": "password" }`
+* GET /todos?page=0&size=5&sort=created,desc -> `[ ... ]`
+* POST /todos <- `{ "body": "Buy a banana" }`
+* PATCH /todos/1 <- `{ "done": true }`
+* PATCH /todos/1 <- `{ "body": "Buy a bunch of bananas" }`
+* DELETE /todos/1 -> `204 No Content`
+
 ###### DB Schema
 ![schema](https://i.imgur.com/ZTrbGOP.png)
 
