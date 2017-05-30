@@ -42,3 +42,6 @@ Forgive the lack of directory structure in `src/app` and the auto-generated `*.j
 
 The same comment regarding Basic Auth applies here, and is particularly relevant to the client because to simulate
 login with stateless REST it stores credentials in localStorage 😬
+
+###### Homepage
+![Homepage](http://i.imgur.com/A5EWC5H.png)
