@@ -19,7 +19,7 @@ and controllers.
 preferred in a real scenario.
 
 ## todo-frontend
-An Angular4 single-page application built using the `angular-quickstart` seed. Just run `npm-install`
+An Angular4 single-page application built using the `angular-quickstart` seed. Just run `npm install`
 then `npm start` from the `todo-frontend/` directory.
 
 #### Setup
