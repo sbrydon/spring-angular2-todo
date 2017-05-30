@@ -1,0 +1,18 @@
+<div class="row">
+	<div class="col-6">
+		<input class="form-control" [(ngModel)]="header.newTodo" (keyup.enter)="header.newTodo !== '' && submit()" 
+		placeholder="What needs done?">
+	</div>
+
+	<div class="col-4">
+		<div class="btn-group-sm">
+			<button class="btn btm btn-secondary" (click)="filter('all')">All</button>
+			<button class="btn btn-secondary" (click)="filter('active')">Active</button>
+			<button class="btn btn-secondary" (click)="filter('completed')">Completed</button>
+		</div>
+	</div>
+
+	<div class="col-2">
+		<a class="btn btn-sm btn-primary btn-block" routerLink="/login">Logout</a>
+	</div>
+</div>

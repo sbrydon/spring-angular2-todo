@@ -1,0 +1,38 @@
+<div class="row">
+	<div class="col">
+		<div class="card" [class.card-outline-success]="todo.done">
+			<div class="card-block">
+				<div class="row">
+					<div class="col-10">
+						<div class="input-group">
+							<span class="input-group-addon">
+								<input type="checkbox" [(ngModel)]="todo.done" (change)="save('done')">
+							</span>
+							<input type="text" class="form-control" [(ngModel)]="todo.body" 
+							(keyup.enter)="todo.body !== '' && save('body')" placeholder="What needs done?">
+						</div>
+					</div>
+
+					<div class="col-2">
+						<button class="btn btn-outline-danger" (click)="delete()">Delete</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="card-footer text-muted">
+				<div class="row">
+					<label *ngIf="todo.done" class="col-12">
+						<small>Completed: {{todo.doneAt | date: 'short'}}</small>
+					</label>
+
+					<label *ngIf="!todo.done" class="col-6">
+						<small>Created: {{todo.createdAt | date: 'short'}}</small>
+					</label>
+					<label *ngIf="!todo.done && todo.modifiedAt !== null" class="col-6 text-right">
+						<small >Modified: {{todo.modifiedAt | date: 'short'}}</small>
+					</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

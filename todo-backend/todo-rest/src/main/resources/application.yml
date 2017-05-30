@@ -1,0 +1,22 @@
+logging.level:
+  brydon.simon.todo: DEBUG
+
+server:
+  port: 42050
+
+flyway:
+  # migrations with a privileged user
+  url: jdbc:mariadb://localhost
+  schemas: todo
+  user: flyway
+  password: password
+
+spring:
+  datasource:
+    # general access with minimal permissions
+    url: jdbc:mariadb://localhost/todo
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: todo-rest
+    password: password
+  jpa:
+    generate-ddl: false
