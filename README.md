@@ -1,5 +1,5 @@
 ## todo-backend
-A typical Spring Boot application so you can use the usual Spring Maven plugins for building & running.
+A typical Spring Boot application so you can use the usual Spring Maven plugin for building & running.
 It can be packaged as a `war` for deployment on Tomcat or similar.
 
 #### Setup
