@@ -18,6 +18,9 @@ and controllers.
 `todo-rest` implements Basic Auth purely for demonstrating security configuration - OAuth2 would be 
 preferred in a real scenario.
 
+###### DB Schema
+![schema](https://i.imgur.com/ZTrbGOP.png)
+
 ## todo-frontend
 An Angular4 single-page application built using the `angular-quickstart` seed. Just run `npm install`
 then `npm start` from the `todo-frontend/` directory.
