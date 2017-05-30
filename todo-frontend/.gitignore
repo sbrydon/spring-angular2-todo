@@ -29,6 +29,8 @@ build/Release
 node_modules
 
 .idea
-src/**/*.js
-src/**/*.js.map
+src/main.js
+src/main.js.map
+src/app/*.js
+src/app/*.js.map
 typings
