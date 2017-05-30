@@ -9,7 +9,7 @@ import javax.validation.ValidatorFactory;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class TodoPatchDtoTests {
+public class TodoPatchDtoTest {
     private static Validator validator;
 
     @BeforeClass
