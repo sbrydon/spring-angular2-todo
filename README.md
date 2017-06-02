@@ -1,4 +1,4 @@
-![travis](https://travis-ci.org/sbrydon/spring-angular4-todo.svg?branch=master)
+[![Build Status](https://travis-ci.org/sbrydon/spring-angular4-todo.svg?branch=master)](https://travis-ci.org/sbrydon/spring-angular4-todo)
 
 ## todo-backend
 A typical Spring Boot application so you can use the usual Spring Maven plugin for building & running.
