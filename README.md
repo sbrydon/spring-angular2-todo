@@ -1,3 +1,5 @@
+![travis](https://travis-ci.org/sbrydon/spring-angular4-todo.svg?branch=master)
+
 ## todo-backend
 A typical Spring Boot application so you can use the usual Spring Maven plugin for building & running.
 It can be packaged as a `war` for deployment on Tomcat or similar.
