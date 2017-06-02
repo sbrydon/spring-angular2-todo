@@ -1,0 +1,3 @@
+before_install: cd todo-backend
+language: java
+jdk: oraclejdk8
